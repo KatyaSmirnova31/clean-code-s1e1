@@ -15,7 +15,7 @@ img {
   width: 100%;
 }
 .aaa 
-.more_inf {
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -153,7 +153,7 @@ input[type=text] {
 
 ul 
 li
-.editmode 
+.edit-mode 
 input[type=text] {
   display: inline-block;
   width: 224px;
@@ -161,7 +161,7 @@ input[type=text] {
 
 ul 
 li
-.editmode 
+.edit-mode 
 label {
   display: none;
 }
