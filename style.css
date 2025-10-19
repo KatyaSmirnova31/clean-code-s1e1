@@ -42,7 +42,7 @@ ul {
   padding: 0px;
 }
 li, 
-h2 {
+.name {
   list-style: none;
 }
 input,
@@ -62,7 +62,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h2 {
+.name {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -88,7 +88,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-h2 {
+.name {
   display: block;
   margin: 0 0 20px;
 }
@@ -136,9 +136,8 @@ img:hover {
 }
 
 /* Completed */
-ul
-#completed-tasks 
-label {
+.completed-objective__tasks 
+#completed-tasks {
   text-decoration: line-through;
   color: #888;
 }
