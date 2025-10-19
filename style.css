@@ -34,7 +34,7 @@ img {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add-objective__wrapper {
   display: flex;
 }
 ul {
@@ -152,7 +152,7 @@ input[type=text] {
 
 ul 
 li
-.edit-mode 
+.todo-objective__tasks__item 
 input[type=text] {
   display: inline-block;
   width: 224px;
@@ -160,7 +160,7 @@ input[type=text] {
 
 ul 
 li
-.edit-mode 
+.todo-objective__tasks__item
 label {
   display: none;
 }
