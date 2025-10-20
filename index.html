@@ -6,50 +6,50 @@
 </head>
 <body>
   <header class="matrix">
-    <img src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix">
+    <img src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix" class="matrix-picture">
     <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
   <main class="objective">
     <section class="add-objective">
       <h2 class="add-objective__name name">Add Item</h2>
       <div class="add-objective__wrapper">
-        <input type="text" id="new-task" class="task">
-        <button class="add-objective__button">Add</button>
+        <input type="text" id="new-task" class="task shape shape-text">
+        <button class="add-objective__button button">Add</button>
       </div>
     </section>
     <section class="todo-objective">
       <h2 class="todo-objective__name name">Todo</h2>
-      <ul class="todo-objective__tasks" id="incomplete-tasks">
-        <li class="todo-objective__tasks__item">
-          <input type="checkbox">
-          <label class="task">Pay Bills</label>
-          <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
-            <img src="./remove.svg" alt="Arrow with cross">
+      <ul class="todo-objective__tasks tasks" id="incomplete-tasks">
+        <li class="todo-objective__tasks__item item">
+          <input type="checkbox" class="shape shape-text">
+          <label class="task label-name">Pay Bills</label>
+          <input type="text" class="task shape shape-checkbox">
+          <button class="edit button">Edit</button>
+          <button class="delete button">
+            <img src="./remove.svg" alt="Arrow with cross" class="arrow-picture">
           </button>
         </li>
-        <li class="todo-objective__tasks__item">
-          <input type="checkbox">
-          <label class="task">Go Shopping</label>
-          <input type="text" value="go-shopping" class="task">
-          <button class="edit">Save</button>
-          <button class="delete">
-            <img src="./remove.svg" alt="Arrow with cross">
+        <li class="todo-objective__tasks__item item">
+          <input type="checkbox" class="shape shape-checkbox">
+          <label class="task label-name">Go Shopping</label>
+          <input type="text" value="go-shopping" class="task shape shape-text">
+          <button class="edit button">Save</button>
+          <button class="delete button">
+            <img src="./remove.svg" alt="Arrow with cross" class="arrow-picture">
           </button>
         </li>
       </ul>
     </section>
     <section class="completed-objective">
       <h2 class="completed-objective__name name">Completed</h2>
-      <ul class="completed-objective__tasks" id="completed-tasks">
-        <li class="completed-objective__tasks__item">
-          <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
-            <img src="./remove.svg" alt="Arrow with cross">
+      <ul class="completed-objective__tasks tasks" id="completed-tasks">
+        <li class="completed-objective__tasks__item item">
+          <input type="checkbox" class="shape shape-checkbox" checked >
+          <label class="task label-name">See the Doctor</label>
+          <input type="text" class="task shape shape-text">
+          <button class="edit button">Edit</button>
+          <button class="delete button">
+            <img src="./remove.svg" alt="Arrow with cross" class="arrow-picture">
           </button>
         </li>
       </ul>
