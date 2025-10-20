@@ -11,7 +11,7 @@ body {
   text-align: right;
 }
 .matrix 
-img {
+.matrix-picture {
   width: 100%;
 }
 .matrix 
@@ -37,19 +37,19 @@ img {
 .add-objective__wrapper {
   display: flex;
 }
-ul {
+.tasks {
   margin: 0;
   padding: 0px;
 }
-li, 
+.item, 
 .name {
   list-style: none;
 }
-input,
-button {
+.shape,
+.button {
   outline: none;
 }
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -58,7 +58,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -71,7 +71,7 @@ button:hover {
   margin: 0;
   text-transform: uppercase;
 }
-input[type="text"] {
+.shape-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -83,7 +83,7 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
-input[type="text"]:focus {
+.shape-text:focus {
   color: #333;
 }
 
@@ -92,13 +92,12 @@ input[type="text"]:focus {
   display: block;
   margin: 0 0 20px;
 }
-input
-#new-task {
+.shape-text {
   width: 318px;
 }
 
 /* Task list */
-li {
+.item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -106,32 +105,30 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+.item > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.item > .shape-checkbox {
   margin: 0 10px;
 }
-li > label {
+.item > .label-name {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-li > input[type="text"] {
+.item > .shape-text {
   width: 226px;
 }
-button
-.delete 
-img {
+
+.arrow-picture {
   height: 2em;
   transform: rotatez(45deg);
   transition: transform 200ms ease-in;
 }
-button
-.delete 
-img:hover {
+
+.arrow-picture:hover {
   transform: rotatez(0);
 }
 
@@ -143,23 +140,23 @@ img:hover {
 }
 
 /* Edit Task */
-ul 
-li 
-input[type=text] {
+.tasks 
+.item 
+.shape-text {
   display: none;
 }
 
-ul 
-li
+.tasks 
+.item
 .todo-objective__tasks__item 
-input[type=text] {
+.shape-text {
   display: inline-block;
   width: 224px;
 }
 
-ul 
-li
+.tasks 
+.item
 .todo-objective__tasks__item
-label {
+.label-name {
   display: none;
 }
