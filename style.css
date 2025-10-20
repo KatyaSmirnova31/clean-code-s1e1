@@ -88,9 +88,9 @@ body {
 }
 
 /* New Task */
-.name {
+.add-objective__name {
   display: block;
-  margin: 0 0 20px;
+  margin: 0 0 20px;  
 }
 .shape-text {
   width: 318px;
