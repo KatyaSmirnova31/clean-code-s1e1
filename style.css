@@ -146,16 +146,14 @@ body {
 }
 
 .tasks 
-.item
-.todo-objective__tasks-item 
+.edit-mode 
 .shape-text {
   display: inline-block;
   width: 224px;
 }
 
 .tasks 
-.item
-.todo-objective__tasks-item
+.edit-mode
 .label-name {
   display: none;
 }
