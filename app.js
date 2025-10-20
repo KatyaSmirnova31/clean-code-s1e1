@@ -85,11 +85,11 @@ var editTask=function(){
     var editInput=listItem.querySelector('input[type=text]');
     var label=listItem.querySelector("label");
     var editBtn=listItem.querySelector(".edit");
-    var containsClass=listItem.classList.contains("todo-objective__tasks_item");
-    //If class of the parent is .todo-objective__tasks_item
+    var containsClass=listItem.classList.contains("todo-objective__tasks-item");
+    //If class of the parent is .todo-objective__tasks-item
     if(containsClass){
 
-        //switch to .todo-objective__tasks_item
+        //switch to .todo-objective__tasks-item
         //label becomes the inputs value.
         label.innerText=editInput.value;
         editBtn.innerText="Edit";
@@ -98,8 +98,8 @@ var editTask=function(){
         editBtn.innerText="Save";
     }
 
-    //toggle .todo-objective__tasks_item on the parent.
-    listItem.classList.toggle("todo-objective__tasks_item");
+    //toggle .todo-objective__tasks-item on the parent.
+    listItem.classList.toggle("todo-objective__tasks-item");
 };
 
 

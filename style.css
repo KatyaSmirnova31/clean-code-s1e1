@@ -133,8 +133,7 @@ body {
 }
 
 /* Completed */
-.completed-objective__tasks 
-#completed-tasks {
+.completed-objective__tasks#completed-tasks {
   text-decoration: line-through;
   color: #888;
 }
@@ -148,7 +147,7 @@ body {
 
 .tasks 
 .item
-.todo-objective__tasks__item 
+.todo-objective__tasks-item 
 .shape-text {
   display: inline-block;
   width: 224px;
@@ -156,7 +155,7 @@ body {
 
 .tasks 
 .item
-.todo-objective__tasks__item
+.todo-objective__tasks-item
 .label-name {
   display: none;
 }
